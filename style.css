@@ -1,0 +1,10 @@
+/* styles.css */
+.custom-svg-shape {
+    transition: filter 0.3s ease;
+}
+
+/* Apply uniform shadow on hover */
+.group:hover .custom-svg-shape {
+    /* Apply a uniform shadow around all sides of the SVG path */
+    filter: drop-shadow(0px 0px 6px #aca9a9);
+}
